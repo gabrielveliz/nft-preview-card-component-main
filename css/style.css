@@ -1,0 +1,152 @@
+    .attribution { font-size: 11px; text-align: center; 
+        color: white;
+    }
+    .attribution a { color: white; }
+
+    html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+/* ********************* */
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.mar{
+
+margin-top: 200px;
+
+}
+@media (max-width:500px) {
+    .mar{
+        margin-top: 50px;
+    }
+}
+.contenido{
+
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 1.8rem 1.8rem 0.5rem 1.8rem;
+    box-shadow: 5px 10px 8px 10px hsla(217, 84%, 8%,0.6);
+
+}
+
+@media (max-width:500px) {
+    .contenido{
+        width: 90%;
+        padding: 2.5rem 2.5rem 0.5rem 2.5rem;
+
+    }
+}
+
+
+.imagen{
+    background-image: url("../images/image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.img_ppal{
+    width: 100%;
+    opacity: 0.0;
+}
+
+
+.resaltar:hover{
+    background-color: hsla(178, 100%, 50%,0.5);
+    border-radius: 1rem;
+    background-image: url("../images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+
+
+span{
+    font-family: 'Outfit', sans-serif;
+}
+
+.equi,.our,.columnas,.creator{
+    margin: 2rem 0rem;
+}
+
+.equi{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.8rem;
+
+}
+.equi:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.our{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1.5rem;
+    
+}
+
+.columnas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.5rem;
+    border-bottom: hsl(215, 32%, 27%) 1px solid;
+    padding-bottom: 1rem;
+}
+
+.columna1{
+    display: flex;
+    gap: 0.5rem;
+    color: hsl(178, 100%, 50%);
+}
+
+.columna2{
+    
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row-reverse;
+
+}
+
+.creator{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.creator_imagen img{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    }
+.creator_nombre_grey{
+    color: hsl(215, 51%, 70%);
+}
+.creator_nombre_white{
+    color: hsl(0, 0%, 100%);
+}
+.creator_nombre_white:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20px;
+}
