@@ -20,14 +20,10 @@ body{
 }
 .mar{
 
-margin-top: 200px;
+margin-top: 50px;
 
 }
-@media (max-width:500px) {
-    .mar{
-        margin-top: 50px;
-    }
-}
+
 .contenido{
 
     background-color: hsl(216, 50%, 16%);
